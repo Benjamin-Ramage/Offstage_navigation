@@ -30,7 +30,6 @@ class FavouritesScreen extends StatelessWidget {
                   fontSize: 18.0,
                 ),
               ),
-              style: const ButtonStyle(),
             ),
           ),
         ),

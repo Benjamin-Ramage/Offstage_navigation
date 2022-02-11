@@ -24,7 +24,7 @@ class _AppState extends State<App> {
       onWillPop: () async {
         final isFirstRouteInCurrentTab =
             !await _navigatorKeys[_selectedIndex].currentState!.maybePop();
-        // let system handle back button if we're on the first route
+        // let system handle the back button if we're on the first route
         return isFirstRouteInCurrentTab;
       },
       child: Scaffold(

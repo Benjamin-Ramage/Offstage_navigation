@@ -3,7 +3,6 @@ import 'package:offstage_navigation/pages/home_page.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +33,6 @@ class HomeScreen extends StatelessWidget {
                   fontSize: 18.0,
                 ),
               ),
-              style: const ButtonStyle(),
             ),
           ),
         ),
